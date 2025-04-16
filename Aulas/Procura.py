@@ -4,9 +4,10 @@ nomproc=""
 contaigualdade=0
 #index i     0               1               2               3
 nomes=["Dario Quental", "Joao Matos", "Liliana Queiroz","Joao Matos"]
-indexproc=[]
 #ind it 0123456789101112
 #Nomes[i][it]
+indexproc=[]
+
 
 nomproc="Joao Matos"
 #        0123456789  10
@@ -29,4 +30,3 @@ for i in range(len(nomes)):
         if it == (len(nomproc)-1): 
            print("tamanho do valor nomproc",len(nomproc)) 
            break
-
