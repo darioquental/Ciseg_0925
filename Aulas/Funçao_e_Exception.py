@@ -1,5 +1,6 @@
 numeros=[1,4,5,6,7]
 termina=True
+opc=0
 
 def listar(nummeros):
     try:
@@ -11,7 +12,6 @@ def listar(nummeros):
 def adicionar(nummeros,inputdinamico):
     nummeros.append(inputdinamico)
     return nummeros
-
 
 while termina:
     print ("1 para listar")
