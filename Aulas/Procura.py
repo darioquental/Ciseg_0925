@@ -8,7 +8,6 @@ nomes=["Dario Quental", "Joao Matos", "Liliana Queiroz","Joao Matos"]
 #Nomes[i][it]
 indexproc=[]
 
-
 nomproc="Joao Matos"
 #        0123456789  10
 

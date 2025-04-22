@@ -16,8 +16,4 @@ while i<=2:
             print ("Letra na 2 dimençao",cidades[i][it])
             time.sleep(1)
             it+=1
-    i+=1        
-
-
-
-
+    i+=1
