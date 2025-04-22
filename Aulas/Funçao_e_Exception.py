@@ -1,6 +1,8 @@
 numeros=[1,4,5,6,7]
 termina=True
 opc=0
+num=0
+nome=""
 
 def listar(nummeros):
     try:
@@ -15,19 +17,19 @@ def adicionar(nummeros,inputdinamico):
 
 while termina:
     print ("1 para listar")
-    print ("2 para intruduzir numero")
-    print ("3 para intruduzir Nome")
+    print ("2 para introduzir numero")
+    print ("3 para introduzir Nome")
     print ("4 Sair do Programa")
 
-    opc=int(input("Intrud Opcão"))
+    opc=int(input("Introd Opcão"))
     match opc:
         case 1:
             listar(numeros)
         case 2:
-            num=int(input("intrud novo numero"))
+            num=int(input("introd novo numero"))
             numeros=adicionar(numeros,num)
         case 3:
-            nome=input("intrud novo nome")
+            nome=input("introd novo nome")
             numeros=adicionar(numeros,nome)
         case 4:
             termina=False
