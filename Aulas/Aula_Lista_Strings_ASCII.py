@@ -12,7 +12,7 @@ while i<=2:
     it=0
     while it< len(cidades[i]):
             print (f"1ª dimençao i= {i}")
-            print (f"1ª dimençao it= {it}")
+            print (f"2ª dimençao it= {it}")
             print ("Letra na 2 dimençao",cidades[i][it])
             time.sleep(1)
             it+=1
