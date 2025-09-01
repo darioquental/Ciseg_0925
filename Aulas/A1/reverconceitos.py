@@ -16,7 +16,6 @@ if var1==2:
 for nome in listanome:
     print(nome)
 
-
 #ciclos de repetiçao while para listar
 while i<len(listanome):
     print(listanome[i])
