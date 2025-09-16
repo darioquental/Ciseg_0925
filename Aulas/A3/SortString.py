@@ -28,7 +28,7 @@ while il<len(listaNome):       # Loop controla as voltas a lista
                 it+=1                        
         i+=1
     il+=1
- 
+
     ''' Exercicio 3.1 Corrigir o problema com a troca Extra.
  
         Exercicio 4 Ordena as Letras de Z-A de em uma lista com uma unica string.
