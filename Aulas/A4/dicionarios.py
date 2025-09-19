@@ -1,7 +1,7 @@
-# dicionarios sao nao ordenados e nao usam index mas sim mapping 
-# Acesso a  key : value  em vez de index 0 1 2 3
-# type struct
-# mutaveis
+# Dicionarios sao não ordenados e não usam index mas sim mapping 
+# Acesso a  key : value ,  em vez de index 0 1 2 3
+# Type struct
+# Mutaveis
 
 meudicionario={ "nome": "Joao", "idade": 20}
 
@@ -34,7 +34,7 @@ print("items  ", meudicionario.items() )
 for chave , valor in meudicionario.items():
     print (f"Key do dicionario = {chave} valor dele =  {valor}")
 
-meudicionario.update({ "email": "hhh@hot.pt"}) # adiciona item que nao existe se existir muda valor
+meudicionario.update({ "email": "hhh@hot.pt"}) # adiciona item que nao existe (Chave) se existir muda valor (Valor)
 print("items  ", meudicionario.items() ) 
 meudicionario.pop("nomeproprio")      # Remove e retorna valor da chave
 meudicionario.popitem()         # Remove o último item 
