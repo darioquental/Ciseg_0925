@@ -34,7 +34,7 @@ print("items  ", meudicionario.items() )
 for chave , valor in meudicionario.items():
     print (f"Key do dicionario = {chave} valor dele =  {valor}")
 
-meudicionario.update({ "email": "hhh@hot.pt"}) # adiciona item que nao existe (Chave) se existir muda valor (Valor)
+meudicionario.update({ "email": "hhh@tot.pt"}) # adiciona item que nao existe (Chave) se existir muda valor (Valor)
 print("items  ", meudicionario.items() ) 
 meudicionario.pop("nomeproprio")      # Remove e retorna valor da chave
 meudicionario.popitem()         # Remove o último item 
